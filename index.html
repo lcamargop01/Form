@@ -1,4 +1,23 @@
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
- crossorigin="anonymous">
- 
-<div id="root"></div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>React Forms</title>
+  </head>
+
+  <body style="margin: 1em">
+    <!-- We will put our React component inside this div. -->
+    <h2>Subscription Form</h2>
+    <div id="SubscriptionForm"></div>
+    <hr style="margin-top: 1.75em" />
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script defer type="text/babel" src="./ManagedForm.jsx"></script>
+  </body>
+</html>
